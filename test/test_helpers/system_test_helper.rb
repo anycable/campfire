@@ -49,7 +49,7 @@ module SystemTestHelper
   end
 
   def dismiss_pwa_install_prompt
-    if page.has_css?("[data-pwa-install-target~='dialog']", visible: :visible, wait: 5)
+    if page.has_css?("[data-pwa-install-target~='dialog']", visible: :visible, wait: 1)
       click_on("Close")
     end
   end

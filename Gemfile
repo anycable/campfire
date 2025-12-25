@@ -55,6 +55,6 @@ end
 group :test do
   gem "capybara"
   gem "mocha"
-  gem "selenium-webdriver"
+  gem "cuprite"
   gem "webmock", require: false
 end
